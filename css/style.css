@@ -51,4 +51,27 @@ body {
   letter-spacing: 2px;
 }
 
+.buttons {
+  position: absolute;
+  right: 25%;
+  top: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.buttons__btn {
+  color: #395b64;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 10rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+  font-size: 1.6rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+.buttons__btn--start {
+  color: #e7e7e7;
+  background: #395b64;
+}
+
 /*# sourceMappingURL=style.css.map */

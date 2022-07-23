@@ -1,0 +1,28 @@
+.buttons {
+  position: absolute;
+  right: 25%;
+  top: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  &__btn {
+    // width: 5rem;
+    // height: 4rem;
+    color: #395b64;
+    background: $color-grey-light;
+    border: none;
+    border-radius: 10rem;
+    box-shadow: 0 3px 5px rgba($color-black, 0.15);
+    font-size: 1.6rem;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    &--start {
+      color: $color-grey-light;
+      background: #395b64;
+    }
+    &--plus {
+    }
+    &--minus {
+    }
+  }
+}
